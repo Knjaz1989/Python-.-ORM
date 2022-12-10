@@ -1,0 +1,27 @@
+[
+  {
+    "model": "publisher",
+    "pk": "1",
+    "fields": {"name": "Лев Толстой"}
+  },
+  {
+    "model": "book",
+    "pk": "1",
+    "fields": {"title":  "Война и мир!", "publisher_id": 1}
+  },
+  {
+    "model": "shop",
+    "pk": "1",
+    "fields": {"name": "Книжный мир"}
+  },
+  {
+    "model": "stock",
+    "pk": "1",
+    "fields": {"book_id": 1, "shop_id": 1, "count": 5}
+  },
+  {
+    "model": "sale",
+    "pk": "1",
+    "fields": {"price": 325.99, "date_sale": "2022-12-10", "count": 2, "stock_id": 1}
+  }
+]
